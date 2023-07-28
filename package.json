@@ -1,0 +1,35 @@
+{
+  "name": "swiggy-clone",
+  "version": "1.0.0",
+  "description": "Project learning series",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codermonkvipin/swiggy-clone-25.git"
+  },
+  "author": "VIPIN KUMAR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codermonkvipin/swiggy-clone-25/issues"
+  },
+  "homepage": "https://github.com/codermonkvipin/swiggy-clone-25#readme",
+  "devDependencies": {
+    "@babel/preset-react": "^7.22.5",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.9.3",
+    "postcss": "^8.4.26",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.14.2"
+  }
+}
